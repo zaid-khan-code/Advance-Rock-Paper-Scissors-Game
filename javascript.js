@@ -81,7 +81,7 @@ function toggleAutoPlay() {
             const moves = ['rock', 'paper', 'scissors'];
             const randomMove = moves[Math.floor(Math.random() * moves.length)];
             playGame(randomMove);
-        }, 1); // 1ms speed
+        }, 500); // 1ms speed
         isAutoPlaying = true;
         autoPlayButton.textContent = 'Stop Auto Play';
     } else {
