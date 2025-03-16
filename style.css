@@ -1,0 +1,175 @@
+body {
+    background: linear-gradient(135deg, #6e8efb, #4a6cf7);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.5s ease;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;     
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.s12sd {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.pa {
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffcc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.p21a {
+    font-size: 21px;
+    font-family: cursive;
+    font-weight: 500;
+    color: #00ff88;
+    margin-bottom: 20px;
+}
+
+.wqeq {
+    background-color: #4a6cf7;
+    border: 3px solid #6e8efb;
+    color: white;
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+}
+
+.wqeq:hover {
+    background-color: #6e8efb;
+    box-shadow: 0 0 20px rgba(110, 142, 251, 0.8);
+}
+
+body.tie {
+    background: linear-gradient(135deg, #ffcc00, #ffb347);
+}
+
+body.win {
+    background: linear-gradient(135deg, #00ff88, #00c9ff);
+}
+
+body.lose {
+    background: linear-gradient(135deg, #ff6f61, #ff2e63);
+}
+/* Add this to your existing CSS */
+#autoPlayButton {
+    margin-top: 10px;
+    background-color: #ff6f61;
+    border: 3px solid #ff2e63;
+    color: white;
+}
+
+#autoPlayButton:hover {
+    background-color: #ff2e63;
+    box-shadow: 0 0 20px rgba(255, 47, 99, 0.8);
+}
+/* Add this to your existing CSS */
+.wqeq {
+    background-color: #4a6cf7;
+    border: 3px solid #6e8efb;
+    color: white;
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.wqeq:hover {
+    background-color: #6e8efb;
+    box-shadow: 0 0 20px rgba(110, 142, 251, 0.8);
+    transform: scale(1.05);
+}
+
+#autoPlayButton {
+    background-color: #ff6f61;
+    border: 3px solid #ff2e63;
+    color: white;
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#autoPlayButton:hover {
+    background-color: #ff2e63;
+    box-shadow: 0 0 20px rgba(255, 47, 99, 0.8);
+    transform: scale(1.05);
+}
+
+/* Add a container for the buttons to align them properly */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
